@@ -320,8 +320,6 @@ Individual product cards with pricing details, sentiment pie + gauge charts, rat
 
 <div align="center">
 
-*Built for the Moonshot AI Agent Internship Assignment*
-
 **Core workflow:** Scrape → Analyze → Compare → Present
 
 </div>
