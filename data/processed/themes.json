@@ -1,0 +1,290 @@
+{
+  "Safari": {
+    "positive_themes": [
+      {
+        "keyword": "the",
+        "score": 11.669
+      },
+      {
+        "keyword": "quality",
+        "score": 9.045
+      },
+      {
+        "keyword": "and",
+        "score": 8.832
+      },
+      {
+        "keyword": "for",
+        "score": 8.362
+      },
+      {
+        "keyword": "is",
+        "score": 8.273
+      },
+      {
+        "keyword": "it",
+        "score": 7.899
+      },
+      {
+        "keyword": "this",
+        "score": 6.694
+      },
+      {
+        "keyword": "but",
+        "score": 6.238
+      }
+    ],
+    "negative_themes": []
+  },
+  "Skybags": {
+    "positive_themes": [
+      {
+        "keyword": "the",
+        "score": 11.516
+      },
+      {
+        "keyword": "and",
+        "score": 9.337
+      },
+      {
+        "keyword": "quality",
+        "score": 8.973
+      },
+      {
+        "keyword": "is",
+        "score": 8.491
+      },
+      {
+        "keyword": "for",
+        "score": 7.856
+      },
+      {
+        "keyword": "spacious",
+        "score": 7.177
+      },
+      {
+        "keyword": "it",
+        "score": 7.158
+      },
+      {
+        "keyword": "build",
+        "score": 7.072
+      }
+    ],
+    "negative_themes": []
+  },
+  "American Tourister": {
+    "positive_themes": [
+      {
+        "keyword": "the",
+        "score": 12.774
+      },
+      {
+        "keyword": "quality",
+        "score": 11.23
+      },
+      {
+        "keyword": "and",
+        "score": 10.112
+      },
+      {
+        "keyword": "for",
+        "score": 9.624
+      },
+      {
+        "keyword": "it",
+        "score": 9.242
+      },
+      {
+        "keyword": "is",
+        "score": 8.937
+      },
+      {
+        "keyword": "excellent",
+        "score": 8.478
+      },
+      {
+        "keyword": "this",
+        "score": 8.435
+      }
+    ],
+    "negative_themes": []
+  },
+  "VIP": {
+    "positive_themes": [
+      {
+        "keyword": "the",
+        "score": 9.708
+      },
+      {
+        "keyword": "and",
+        "score": 7.294
+      },
+      {
+        "keyword": "quality",
+        "score": 7.056
+      },
+      {
+        "keyword": "is",
+        "score": 6.903
+      },
+      {
+        "keyword": "for",
+        "score": 6.882
+      },
+      {
+        "keyword": "it",
+        "score": 5.915
+      },
+      {
+        "keyword": "this",
+        "score": 5.535
+      },
+      {
+        "keyword": "affordable",
+        "score": 4.702
+      }
+    ],
+    "negative_themes": [
+      {
+        "keyword": "is",
+        "score": 1.732
+      },
+      {
+        "keyword": "it",
+        "score": 1.08
+      },
+      {
+        "keyword": "lightweight",
+        "score": 0.938
+      },
+      {
+        "keyword": "not",
+        "score": 0.938
+      },
+      {
+        "keyword": "quality",
+        "score": 0.934
+      },
+      {
+        "keyword": "this",
+        "score": 0.745
+      },
+      {
+        "keyword": "rate it",
+        "score": 0.745
+      },
+      {
+        "keyword": "rate",
+        "score": 0.745
+      }
+    ]
+  },
+  "Aristocrat": {
+    "positive_themes": [
+      {
+        "keyword": "the",
+        "score": 8.887
+      },
+      {
+        "keyword": "quality",
+        "score": 7.643
+      },
+      {
+        "keyword": "is",
+        "score": 7.082
+      },
+      {
+        "keyword": "and",
+        "score": 6.847
+      },
+      {
+        "keyword": "for",
+        "score": 6.126
+      },
+      {
+        "keyword": "it",
+        "score": 6.089
+      },
+      {
+        "keyword": "this",
+        "score": 5.428
+      },
+      {
+        "keyword": "most",
+        "score": 4.699
+      }
+    ],
+    "negative_themes": [
+      {
+        "keyword": "the",
+        "score": 1.075
+      },
+      {
+        "keyword": "disappointing rate",
+        "score": 1.018
+      },
+      {
+        "keyword": "rate it",
+        "score": 1.018
+      },
+      {
+        "keyword": "rate",
+        "score": 1.018
+      },
+      {
+        "keyword": "mixed feelings",
+        "score": 1.018
+      },
+      {
+        "keyword": "mixed",
+        "score": 1.018
+      },
+      {
+        "keyword": "it average",
+        "score": 1.018
+      },
+      {
+        "keyword": "is but",
+        "score": 1.018
+      }
+    ]
+  },
+  "Nasher Miles": {
+    "positive_themes": [
+      {
+        "keyword": "the",
+        "score": 14.048
+      },
+      {
+        "keyword": "and",
+        "score": 10.818
+      },
+      {
+        "keyword": "is",
+        "score": 10.359
+      },
+      {
+        "keyword": "quality",
+        "score": 10.219
+      },
+      {
+        "keyword": "premium",
+        "score": 9.526
+      },
+      {
+        "keyword": "excellent",
+        "score": 9.031
+      },
+      {
+        "keyword": "it",
+        "score": 8.379
+      },
+      {
+        "keyword": "for",
+        "score": 8.253
+      }
+    ],
+    "negative_themes": []
+  }
+}

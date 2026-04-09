@@ -1,0 +1,58 @@
+[
+  {
+    "type": "Price-Quality Outlier",
+    "severity": "Low",
+    "product_id": "B123E4A758",
+    "brand": "American Tourister",
+    "title": "American Tourister Ivy Polypropylene Hardside Cabin",
+    "detail": "Overpriced: \u20b912349 for 4.1\u2605 (\u20b93012/star). Normal range: \u20b9-476-\u20b92571/star.",
+    "metric": {
+      "price": 12349.0,
+      "rating": 4.1,
+      "price_per_star": 3011.951219512195,
+      "is_overpriced": "True"
+    }
+  },
+  {
+    "type": "Price-Quality Outlier",
+    "severity": "Low",
+    "product_id": "B751A278E1",
+    "brand": "American Tourister",
+    "title": "American Tourister Instagon Spinner Trolley Bag",
+    "detail": "Overpriced: \u20b912749 for 4.3\u2605 (\u20b92965/star). Normal range: \u20b9-476-\u20b92571/star.",
+    "metric": {
+      "price": 12749.0,
+      "rating": 4.3,
+      "price_per_star": 2964.883720930233,
+      "is_overpriced": "True"
+    }
+  },
+  {
+    "type": "Price-Quality Outlier",
+    "severity": "Low",
+    "product_id": "B548BF203F",
+    "brand": "American Tourister",
+    "title": "American Tourister Kamiliant Zakk Spinner",
+    "detail": "Overpriced: \u20b912699 for 4.0\u2605 (\u20b93175/star). Normal range: \u20b9-476-\u20b92571/star.",
+    "metric": {
+      "price": 12699.0,
+      "rating": 4.0,
+      "price_per_star": 3174.75,
+      "is_overpriced": "True"
+    }
+  },
+  {
+    "type": "Price-Quality Outlier",
+    "severity": "Low",
+    "product_id": "B6E62FFB78",
+    "brand": "American Tourister",
+    "title": "American Tourister Speedair Cabin 4W",
+    "detail": "Overpriced: \u20b911099 for 4.2\u2605 (\u20b92643/star). Normal range: \u20b9-476-\u20b92571/star.",
+    "metric": {
+      "price": 11099.0,
+      "rating": 4.2,
+      "price_per_star": 2642.6190476190477,
+      "is_overpriced": "True"
+    }
+  }
+]

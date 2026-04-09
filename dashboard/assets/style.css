@@ -1,0 +1,436 @@
+/* ═══════════════════════════════════════════════════════════
+   LugIntel Dashboard — Premium Modern Theme
+   Midnight Glass · Cyan Accent · Refined Minimalism
+   ═══════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ─── Root Variables ───────────────────────────────────────── */
+:root {
+    --accent:        #22d3ee;
+    --accent-soft:   rgba(34, 211, 238, 0.12);
+    --accent-glow:   rgba(34, 211, 238, 0.25);
+    --accent2:       #a78bfa;
+    --accent2-soft:  rgba(167, 139, 250, 0.10);
+    --surface:       rgba(255, 255, 255, 0.03);
+    --surface-hover: rgba(255, 255, 255, 0.06);
+    --border:        rgba(255, 255, 255, 0.06);
+    --border-accent: rgba(34, 211, 238, 0.18);
+    --text-primary:  #f1f5f9;
+    --text-muted:    #94a3b8;
+    --text-dim:      #64748b;
+    --bg-deep:       #030712;
+    --bg-card:       #0f172a;
+    --positive:      #34d399;
+    --negative:      #f87171;
+    --warning:       #fbbf24;
+    --radius:        14px;
+    --radius-sm:     10px;
+}
+
+/* ─── Global ───────────────────────────────────────────────── */
+.stApp {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    letter-spacing: 0.01em;
+}
+
+html, body, .stApp, [data-testid="stAppViewContainer"] {
+    background: var(--bg-deep) !important;
+}
+
+.main .block-container {
+    padding: 2.5rem 2rem 3rem;
+    max-width: 1280px;
+}
+
+/* Subtle gradient overlay at top */
+[data-testid="stAppViewContainer"]::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background: radial-gradient(ellipse at 30% -20%, rgba(34,211,238,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% -10%, rgba(167,139,250,0.04) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ─── Sidebar ──────────────────────────────────────────────── */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0a0f1f 0%, #080c1a 100%) !important;
+    border-right: 1px solid var(--border) !important;
+}
+
+section[data-testid="stSidebar"]::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--accent-glow), transparent 40%, transparent 60%, rgba(167,139,250,0.15));
+}
+
+section[data-testid="stSidebar"] .stMarkdown h1,
+section[data-testid="stSidebar"] .stMarkdown h2,
+section[data-testid="stSidebar"] .stMarkdown h3 {
+    color: var(--text-primary) !important;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+section[data-testid="stSidebar"] .stMarkdown p,
+section[data-testid="stSidebar"] .stMarkdown li,
+section[data-testid="stSidebar"] .stMarkdown span {
+    color: var(--text-muted) !important;
+}
+
+section[data-testid="stSidebar"] .stRadio label {
+    transition: all 0.2s ease;
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+
+section[data-testid="stSidebar"] .stRadio label:hover {
+    background: var(--accent-soft);
+}
+
+/* ─── Metric Cards — Glass Morphism Redesign ───────────────── */
+div[data-testid="stMetric"] {
+    background: linear-gradient(135deg, rgba(34,211,238,0.04) 0%, rgba(167,139,250,0.03) 100%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 24px 18px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+div[data-testid="stMetric"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+div[data-testid="stMetric"]:hover {
+    transform: translateY(-3px);
+    border-color: var(--border-accent);
+    box-shadow: 0 12px 40px rgba(34,211,238,0.06), 0 0 0 1px var(--border-accent);
+}
+
+div[data-testid="stMetric"]:hover::before {
+    opacity: 1;
+}
+
+div[data-testid="stMetric"] label {
+    font-weight: 600 !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    color: var(--text-dim) !important;
+}
+
+div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
+    font-weight: 800 !important;
+    font-size: 1.9rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ─── Typography ───────────────────────────────────────────── */
+.stMarkdown h1 {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 900 !important;
+    letter-spacing: -0.035em;
+    font-size: 2.2rem !important;
+    background: linear-gradient(135deg, #ffffff 0%, var(--accent) 70%, var(--accent2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+    padding-bottom: 0.1em;
+}
+
+.stMarkdown h2 {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
+    font-size: 1.4rem !important;
+    color: var(--text-primary) !important;
+    border-bottom: none !important;
+    padding-bottom: 0.2em;
+    margin-top: 1.2em;
+}
+
+.stMarkdown h3 {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.01em;
+    font-size: 1.15rem !important;
+    color: var(--accent) !important;
+}
+
+.stMarkdown p, .stMarkdown li {
+    color: var(--text-muted);
+    line-height: 1.65;
+}
+
+.stMarkdown strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* ─── Dividers ─────────────────────────────────────────────── */
+hr {
+    border: none !important;
+    height: 1px !important;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        var(--border-accent) 20%,
+        rgba(167,139,250,0.12) 50%,
+        var(--border-accent) 80%,
+        transparent 100%) !important;
+    margin: 2rem 0 !important;
+}
+
+/* ─── Tabs ─────────────────────────────────────────────────── */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+    background: var(--surface);
+    border-radius: var(--radius-sm);
+    padding: 4px;
+    border: 1px solid var(--border);
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-dim);
+    transition: all 0.25s ease;
+    border: none;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    color: var(--text-primary);
+    background: var(--surface-hover);
+}
+
+.stTabs [aria-selected="true"] {
+    background: var(--accent-soft) !important;
+    color: var(--accent) !important;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(34,211,238,0.08);
+}
+
+/* ─── Data Tables ──────────────────────────────────────────── */
+div[data-testid="stDataFrame"] {
+    border-radius: var(--radius) !important;
+    overflow: hidden;
+}
+
+div[data-testid="stDataFrame"] > div {
+    border-radius: var(--radius) !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* ─── Selectbox / Inputs ───────────────────────────────────── */
+div[data-baseweb="select"] > div {
+    background: var(--bg-card) !important;
+    border-color: var(--border) !important;
+    border-radius: var(--radius-sm) !important;
+    transition: border-color 0.2s ease;
+}
+
+div[data-baseweb="select"] > div:hover,
+div[data-baseweb="select"] > div:focus-within {
+    border-color: var(--accent) !important;
+    box-shadow: 0 0 0 1px var(--accent-soft) !important;
+}
+
+/* Multi-select tags */
+span[data-baseweb="tag"] {
+    background: var(--accent-soft) !important;
+    border: 1px solid var(--border-accent) !important;
+    color: var(--accent) !important;
+    border-radius: 6px !important;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+/* ─── Sliders ──────────────────────────────────────────────── */
+div[data-baseweb="slider"] div[role="slider"] {
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+
+/* ─── Expanders ────────────────────────────────────────────── */
+details {
+    border: 1px solid var(--border) !important;
+    border-radius: var(--radius-sm) !important;
+    background: var(--surface) !important;
+    transition: all 0.2s ease;
+}
+
+details:hover {
+    border-color: var(--border-accent) !important;
+}
+
+details summary {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+/* ─── Alerts / Info boxes ──────────────────────────────────── */
+div[data-testid="stAlert"] {
+    border-radius: var(--radius-sm) !important;
+    border-left-width: 3px !important;
+    background: var(--surface) !important;
+    backdrop-filter: blur(8px);
+}
+
+/* ─── Plotly Charts ────────────────────────────────────────── */
+.stPlotlyChart {
+    border-radius: var(--radius) !important;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--surface);
+}
+
+/* ─── Buttons ──────────────────────────────────────────────── */
+.stButton > button {
+    background: linear-gradient(135deg, var(--accent-soft), var(--accent2-soft)) !important;
+    border: 1px solid var(--border-accent) !important;
+    color: var(--accent) !important;
+    border-radius: var(--radius-sm) !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 600 !important;
+    transition: all 0.25s ease !important;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, rgba(34,211,238,0.18), rgba(167,139,250,0.15)) !important;
+    box-shadow: 0 4px 20px rgba(34,211,238,0.12) !important;
+    transform: translateY(-1px);
+}
+
+/* ─── Radio buttons (navigation) ───────────────────────────── */
+.stRadio > div {
+    gap: 2px !important;
+}
+
+.stRadio > div > label {
+    background: transparent !important;
+    border-radius: 8px;
+    padding: 6px 8px !important;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.stRadio > div > label:hover {
+    background: var(--accent-soft) !important;
+    border-color: var(--border-accent);
+}
+
+.stRadio > div > label[data-checked="true"],
+.stRadio > div > label:has(input:checked) {
+    background: var(--accent-soft) !important;
+    border-color: var(--border-accent) !important;
+}
+
+/* ─── Success / Warning / Error boxes ──────────────────────── */
+div[data-testid="stAlert"][data-baseweb*="positive"],
+.element-container .stSuccess {
+    background: rgba(52, 211, 153, 0.06) !important;
+    border-color: rgba(52, 211, 153, 0.25) !important;
+}
+
+div[data-testid="stAlert"][data-baseweb*="warning"],
+.element-container .stWarning {
+    background: rgba(251, 191, 36, 0.06) !important;
+    border-color: rgba(251, 191, 36, 0.25) !important;
+}
+
+div[data-testid="stAlert"][data-baseweb*="negative"],
+.element-container .stError {
+    background: rgba(248, 113, 113, 0.06) !important;
+    border-color: rgba(248, 113, 113, 0.25) !important;
+}
+
+/* ─── Scrollbar ────────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(34, 211, 238, 0.2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(34, 211, 238, 0.4);
+}
+
+/* ─── Animations ───────────────────────────────────────────── */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+    0%   { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+.stMarkdown,
+div[data-testid="stMetric"],
+.stPlotlyChart,
+div[data-testid="stDataFrame"] {
+    animation: fadeIn 0.45s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+/* Stagger animation for metric cards */
+.stHorizontalBlock > div:nth-child(1) div[data-testid="stMetric"] { animation-delay: 0.05s; }
+.stHorizontalBlock > div:nth-child(2) div[data-testid="stMetric"] { animation-delay: 0.10s; }
+.stHorizontalBlock > div:nth-child(3) div[data-testid="stMetric"] { animation-delay: 0.15s; }
+.stHorizontalBlock > div:nth-child(4) div[data-testid="stMetric"] { animation-delay: 0.20s; }
+.stHorizontalBlock > div:nth-child(5) div[data-testid="stMetric"] { animation-delay: 0.25s; }
+
+/* ─── Footer ───────────────────────────────────────────────── */
+.footer-text {
+    text-align: center;
+    color: var(--text-dim) !important;
+    font-size: 0.7rem;
+    padding: 2rem 0 0.5rem;
+    letter-spacing: 0.04em;
+}
+
+/* ─── Custom column gap override ───────────────────────────── */
+.stHorizontalBlock {
+    gap: 1rem;
+}
+
+/* ─── JSON viewer ──────────────────────────────────────────── */
+.stJson {
+    background: var(--bg-card) !important;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+}

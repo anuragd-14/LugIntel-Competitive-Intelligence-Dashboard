@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "title": "Hidden Quality Leader",
+    "icon": "\ud83d\udc51",
+    "category": "Competitive Intelligence",
+    "description": "**Safari** delivers the highest customer satisfaction relative to its price, with a sentiment score of 0.671 at an average price of \u20b92945. This is 128% above the category average on our quality-to-price index.",
+    "evidence": {
+      "brand": "Safari",
+      "avg_sentiment": 0.671,
+      "avg_price": 2945,
+      "quality_price_ratio": 4.332
+    },
+    "comparison": {
+      "premium_brand": "American Tourister",
+      "premium_price": 9014,
+      "premium_sentiment": 0.761
+    },
+    "confidence": "High",
+    "recommendation": "For budget-conscious buyers, Safari offers the strongest ROI. Decision-makers should investigate what Safari does differently at a lower price point."
+  },
+  {
+    "id": 2,
+    "title": "The Discount Trap",
+    "icon": "\u26a0\ufe0f",
+    "category": "Pricing Strategy",
+    "description": "**Aristocrat** relies on the deepest average discounts (27.8%) but still has below-average customer sentiment (0.503). In contrast, **Skybags** achieves better sentiment (0.708) with lower discounting (25.9%). Heavy discounts may signal quality concerns rather than attract loyal customers.",
+    "evidence": {
+      "trap_brand": "Aristocrat",
+      "trap_discount": 27.8,
+      "trap_sentiment": 0.503,
+      "efficient_brand": "Skybags",
+      "efficient_discount": 25.9,
+      "efficient_sentiment": 0.708
+    },
+    "confidence": "Medium",
+    "recommendation": "Brands competing on deep discounts should invest in quality improvement rather than price reductions. Aristocrat's strategy of heavy discounting is not translating into customer satisfaction."
+  },
+  {
+    "id": 3,
+    "title": "Durability Dark Horse",
+    "icon": "\ud83d\udee1\ufe0f",
+    "category": "Product Quality",
+    "description": "**VIP** emerges as a surprising durability leader based on aspect-level sentiment analysis. With a durability sentiment of 0.337 across 70 mentions, it outperforms expectations for its \u20b93317 average price point. Buyers specifically praise build quality and material resilience.",
+    "evidence": {
+      "brand": "VIP",
+      "durability_score": 0.337,
+      "mentions": 70,
+      "avg_price": 3317
+    },
+    "confidence": "Medium",
+    "recommendation": "If durability is a priority, VIP offers the best durability-to-price ratio. Premium brands may not always justify their price premium on build quality alone."
+  },
+  {
+    "id": 4,
+    "title": "Review Authenticity Alert",
+    "icon": "\ud83d\udd0d",
+    "category": "Trust & Reliability",
+    "description": "Our trust analysis reveals that **Nasher Miles** has the lowest average review trust score (75/100) across its product line. Signals include review text similarity patterns and rating distribution anomalies. In contrast, **VIP** scores highest (81/100) indicating more authentic customer feedback.",
+    "evidence": {
+      "riskiest_brand": "Nasher Miles",
+      "riskiest_score": 75.3,
+      "safest_brand": "VIP",
+      "safest_score": 81.1,
+      "lowest_products": [
+        {
+          "title": "Skybags Majestic Softsided Trolley Set",
+          "trust_score": 67.4
+        },
+        {
+          "title": "American Tourister Ivy Polypropylene Hardside Cabin",
+          "trust_score": 70.1
+        },
+        {
+          "title": "Nasher Miles Bond Street Polycarbonate Medium",
+          "trust_score": 70.3
+        }
+      ]
+    },
+    "confidence": "Medium",
+    "recommendation": "Weight Nasher Miles reviews with caution when making sourcing decisions. Cross-reference with VIP's more reliable reviews for accurate market comparison."
+  },
+  {
+    "id": 5,
+    "title": "Market Gap Opportunity",
+    "icon": "\ud83c\udfaf",
+    "category": "Market Strategy",
+    "description": "The **Budget** segment shows the highest demand-to-supply ratio with 123 avg reviews per product but only 18 products from 4 brands. Meanwhile, the **Mid-Range** segment is oversaturated with 27 products. New entrants should consider targeting the Budget segment for maximum impact.",
+    "evidence": {
+      "gap_band": "Budget",
+      "gap_products": 18,
+      "gap_avg_reviews": 123,
+      "saturated_band": "Mid-Range",
+      "saturated_products": 27
+    },
+    "confidence": "High",
+    "recommendation": "Brands looking to expand should focus on the Budget segment where demand exists but competition is lower. Existing players in the Mid-Range segment should differentiate on quality rather than competing on price alone."
+  }
+]

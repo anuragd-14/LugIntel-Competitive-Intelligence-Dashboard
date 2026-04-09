@@ -1,0 +1,398 @@
+{
+  "Safari": {
+    "Wheels": {
+      "avg_score": 0.255,
+      "mention_count": 11,
+      "positive_count": 6,
+      "negative_count": 0,
+      "sample_positive": "Good value but wheel quality",
+      "sample_negative": ""
+    },
+    "Handle": {
+      "avg_score": 0.34,
+      "mention_count": 22,
+      "positive_count": 17,
+      "negative_count": 1,
+      "sample_positive": "handle is of great quality",
+      "sample_negative": "Affordable price is great but handle durability is disappointing"
+    },
+    "Material": {
+      "avg_score": 0.312,
+      "mention_count": 38,
+      "positive_count": 25,
+      "negative_count": 2,
+      "sample_positive": "The material deserves special mention",
+      "sample_negative": "The build quality started fine but degraded"
+    },
+    "Zipper": {
+      "avg_score": 0.142,
+      "mention_count": 16,
+      "positive_count": 6,
+      "negative_count": 2,
+      "sample_positive": "The zipper is excellent",
+      "sample_negative": "Decent space is great but zip quality is disappointing"
+    },
+    "Size & Capacity": {
+      "avg_score": 0.13,
+      "mention_count": 80,
+      "positive_count": 23,
+      "negative_count": 1,
+      "sample_positive": "The compartments could be better",
+      "sample_negative": "Decent space is great but zip quality is disappointing"
+    },
+    "Durability": {
+      "avg_score": 0.251,
+      "mention_count": 99,
+      "positive_count": 49,
+      "negative_count": 4,
+      "sample_positive": "handle is of great quality",
+      "sample_negative": "Decent space is great but zip quality is disappointing"
+    },
+    "Weight": {
+      "avg_score": 0.224,
+      "mention_count": 46,
+      "positive_count": 19,
+      "negative_count": 0,
+      "sample_positive": "Lightweight, good value, and excellent material",
+      "sample_negative": ""
+    },
+    "Lock": {
+      "avg_score": 0.42,
+      "mention_count": 16,
+      "positive_count": 13,
+      "negative_count": 0,
+      "sample_positive": "lock is of great quality",
+      "sample_negative": ""
+    }
+  },
+  "Skybags": {
+    "Wheels": {
+      "avg_score": 0.283,
+      "mention_count": 14,
+      "positive_count": 9,
+      "negative_count": 0,
+      "sample_positive": "The wheels could be better",
+      "sample_negative": ""
+    },
+    "Handle": {
+      "avg_score": 0.333,
+      "mention_count": 15,
+      "positive_count": 11,
+      "negative_count": 0,
+      "sample_positive": "Spacious, sturdy build, and excellent handle",
+      "sample_negative": ""
+    },
+    "Material": {
+      "avg_score": 0.209,
+      "mention_count": 70,
+      "positive_count": 34,
+      "negative_count": 2,
+      "sample_positive": "The material deserves special mention",
+      "sample_negative": "The material started fine but degraded"
+    },
+    "Zipper": {
+      "avg_score": 0.288,
+      "mention_count": 14,
+      "positive_count": 8,
+      "negative_count": 0,
+      "sample_positive": "The zipper is excellent",
+      "sample_negative": ""
+    },
+    "Size & Capacity": {
+      "avg_score": 0.151,
+      "mention_count": 86,
+      "positive_count": 30,
+      "negative_count": 1,
+      "sample_positive": "Spacious, sturdy build, and excellent handle",
+      "sample_negative": "Spacious is great but slightly heavy is disappointing"
+    },
+    "Durability": {
+      "avg_score": 0.241,
+      "mention_count": 111,
+      "positive_count": 53,
+      "negative_count": 0,
+      "sample_positive": "Sturdy build and the material is top notch",
+      "sample_negative": ""
+    },
+    "Weight": {
+      "avg_score": 0.264,
+      "mention_count": 12,
+      "positive_count": 8,
+      "negative_count": 1,
+      "sample_positive": "The weight impressed me the most",
+      "sample_negative": "Spacious is great but slightly heavy is disappointing"
+    },
+    "Lock": {
+      "avg_score": 0.433,
+      "mention_count": 10,
+      "positive_count": 9,
+      "negative_count": 0,
+      "sample_positive": "The lock deserves special mention",
+      "sample_negative": ""
+    }
+  },
+  "American Tourister": {
+    "Wheels": {
+      "avg_score": 0.266,
+      "mention_count": 47,
+      "positive_count": 23,
+      "negative_count": 0,
+      "sample_positive": "The wheels impressed me the most",
+      "sample_negative": ""
+    },
+    "Handle": {
+      "avg_score": 0.302,
+      "mention_count": 15,
+      "positive_count": 11,
+      "negative_count": 0,
+      "sample_positive": "The handle is even better than my previous bag",
+      "sample_negative": ""
+    },
+    "Material": {
+      "avg_score": 0.379,
+      "mention_count": 90,
+      "positive_count": 59,
+      "negative_count": 0,
+      "sample_positive": "Excellent build quality, premium finish, and excellent zipper",
+      "sample_negative": ""
+    },
+    "Zipper": {
+      "avg_score": 0.394,
+      "mention_count": 21,
+      "positive_count": 14,
+      "negative_count": 0,
+      "sample_positive": "Excellent build quality, premium finish, and excellent zipper",
+      "sample_negative": ""
+    },
+    "Size & Capacity": {
+      "avg_score": 0.153,
+      "mention_count": 38,
+      "positive_count": 13,
+      "negative_count": 0,
+      "sample_positive": "Really impressed with the compartments",
+      "sample_negative": ""
+    },
+    "Durability": {
+      "avg_score": 0.412,
+      "mention_count": 113,
+      "positive_count": 77,
+      "negative_count": 0,
+      "sample_positive": "Excellent build quality, premium finish, and excellent zipper",
+      "sample_negative": ""
+    },
+    "Weight": {
+      "avg_score": 0.291,
+      "mention_count": 16,
+      "positive_count": 9,
+      "negative_count": 0,
+      "sample_positive": "Trusted brand, excellent build quality, and excellent weight",
+      "sample_negative": ""
+    },
+    "Lock": {
+      "avg_score": 0.277,
+      "mention_count": 45,
+      "positive_count": 24,
+      "negative_count": 0,
+      "sample_positive": "The build quality is good, Tsa lock",
+      "sample_negative": ""
+    }
+  },
+  "VIP": {
+    "Wheels": {
+      "avg_score": 0.207,
+      "mention_count": 12,
+      "positive_count": 5,
+      "negative_count": 0,
+      "sample_positive": "Really impressed with the wheels",
+      "sample_negative": ""
+    },
+    "Handle": {
+      "avg_score": 0.45,
+      "mention_count": 8,
+      "positive_count": 7,
+      "negative_count": 0,
+      "sample_positive": "The handle could be better",
+      "sample_negative": ""
+    },
+    "Material": {
+      "avg_score": 0.265,
+      "mention_count": 33,
+      "positive_count": 20,
+      "negative_count": 1,
+      "sample_positive": "Good warranty and the material is top notch",
+      "sample_negative": "The build quality started fine but degraded"
+    },
+    "Zipper": {
+      "avg_score": 0.081,
+      "mention_count": 18,
+      "positive_count": 11,
+      "negative_count": 5,
+      "sample_positive": "The zipper quality is really good for this price range",
+      "sample_negative": "The zipper started fine but degraded"
+    },
+    "Size & Capacity": {
+      "avg_score": 0.222,
+      "mention_count": 22,
+      "positive_count": 11,
+      "negative_count": 0,
+      "sample_positive": "The compartments quality is really good for this price range",
+      "sample_negative": ""
+    },
+    "Durability": {
+      "avg_score": 0.337,
+      "mention_count": 70,
+      "positive_count": 44,
+      "negative_count": 1,
+      "sample_positive": "Great quality for the price",
+      "sample_negative": "The build quality started fine but degraded"
+    },
+    "Weight": {
+      "avg_score": 0.169,
+      "mention_count": 41,
+      "positive_count": 15,
+      "negative_count": 1,
+      "sample_positive": "Heritage brand, lightweight, and excellent material",
+      "sample_negative": "Lightweight is great but outdated design is disappointing"
+    },
+    "Lock": {
+      "avg_score": 0.204,
+      "mention_count": 8,
+      "positive_count": 4,
+      "negative_count": 1,
+      "sample_positive": "The lock is okay, nothing extraordinary",
+      "sample_negative": "The lock started fine but degraded"
+    }
+  },
+  "Aristocrat": {
+    "Wheels": {
+      "avg_score": 0.219,
+      "mention_count": 19,
+      "positive_count": 10,
+      "negative_count": 0,
+      "sample_positive": "The wheels quality is really good for this price range",
+      "sample_negative": ""
+    },
+    "Handle": {
+      "avg_score": 0.133,
+      "mention_count": 15,
+      "positive_count": 6,
+      "negative_count": 2,
+      "sample_positive": "The handle is excellent",
+      "sample_negative": "Lightweight is great but handle issues is disappointing"
+    },
+    "Material": {
+      "avg_score": 0.213,
+      "mention_count": 44,
+      "positive_count": 26,
+      "negative_count": 3,
+      "sample_positive": "material is of great quality",
+      "sample_negative": "Basic functionality is great but cheap material feel is disappointing"
+    },
+    "Zipper": {
+      "avg_score": -0.282,
+      "mention_count": 12,
+      "positive_count": 3,
+      "negative_count": 8,
+      "sample_positive": "Really impressed with the zipper",
+      "sample_negative": "Lightweight is great but zipper failure is disappointing"
+    },
+    "Size & Capacity": {
+      "avg_score": 0.199,
+      "mention_count": 22,
+      "positive_count": 10,
+      "negative_count": 0,
+      "sample_positive": "The compartments quality is really good for this price range",
+      "sample_negative": ""
+    },
+    "Durability": {
+      "avg_score": 0.186,
+      "mention_count": 83,
+      "positive_count": 39,
+      "negative_count": 7,
+      "sample_positive": "The wheels quality is really good for this price range",
+      "sample_negative": "Product looks good but poor durability"
+    },
+    "Weight": {
+      "avg_score": 0.028,
+      "mention_count": 44,
+      "positive_count": 12,
+      "negative_count": 5,
+      "sample_positive": "Lightweight, simple design, and excellent build quality",
+      "sample_negative": "Lightweight is great but zipper failure is disappointing"
+    },
+    "Lock": {
+      "avg_score": 0.245,
+      "mention_count": 13,
+      "positive_count": 9,
+      "negative_count": 0,
+      "sample_positive": "The lock is okay, nothing extraordinary",
+      "sample_negative": ""
+    }
+  },
+  "Nasher Miles": {
+    "Wheels": {
+      "avg_score": 0.265,
+      "mention_count": 43,
+      "positive_count": 22,
+      "negative_count": 0,
+      "sample_positive": "The wheels is excellent",
+      "sample_negative": ""
+    },
+    "Handle": {
+      "avg_score": 0.401,
+      "mention_count": 25,
+      "positive_count": 20,
+      "negative_count": 0,
+      "sample_positive": "The handle is even better than my previous bag",
+      "sample_negative": ""
+    },
+    "Material": {
+      "avg_score": 0.462,
+      "mention_count": 72,
+      "positive_count": 60,
+      "negative_count": 0,
+      "sample_positive": "Excellent material",
+      "sample_negative": ""
+    },
+    "Zipper": {
+      "avg_score": 0.41,
+      "mention_count": 17,
+      "positive_count": 14,
+      "negative_count": 0,
+      "sample_positive": "The zipper impressed me the most",
+      "sample_negative": ""
+    },
+    "Size & Capacity": {
+      "avg_score": 0.222,
+      "mention_count": 44,
+      "positive_count": 20,
+      "negative_count": 0,
+      "sample_positive": "The compartments is even better than my previous bag",
+      "sample_negative": ""
+    },
+    "Durability": {
+      "avg_score": 0.282,
+      "mention_count": 77,
+      "positive_count": 41,
+      "negative_count": 0,
+      "sample_positive": "Excellent quality",
+      "sample_negative": ""
+    },
+    "Weight": {
+      "avg_score": 0.399,
+      "mention_count": 18,
+      "positive_count": 16,
+      "negative_count": 0,
+      "sample_positive": "The weight is even better than my previous bag",
+      "sample_negative": ""
+    },
+    "Lock": {
+      "avg_score": 0.302,
+      "mention_count": 53,
+      "positive_count": 31,
+      "negative_count": 0,
+      "sample_positive": "Excellent material, premium look, and excellent lock",
+      "sample_negative": ""
+    }
+  }
+}

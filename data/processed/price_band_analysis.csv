@@ -1,0 +1,15 @@
+brand,price_band,product_count,avg_price,avg_rating,avg_sentiment,avg_vfm
+American Tourister,Mid-Range,1,3949.0,4.4,0.819,2.192
+American Tourister,Premium,12,9436.5,4.233,0.764,0.83
+Aristocrat,Budget,5,1839.0,3.66,0.568,2.312
+Aristocrat,Mid-Range,6,3282.833,3.767,0.497,1.011
+Nasher Miles,Mid-Range,5,4019.2,4.3,0.773,1.989
+Nasher Miles,Premium,6,6882.667,4.067,0.727,0.988
+Safari,Budget,6,1915.833,3.95,0.63,3.042
+Safari,Mid-Range,6,3974.0,3.85,0.724,1.578
+Skybags,Budget,3,2249.333,3.967,0.677,2.779
+Skybags,Mid-Range,4,3862.0,4.05,0.73,1.888
+Skybags,Premium,4,6049.25,4.05,0.739,1.1
+VIP,Budget,4,1736.75,3.725,0.613,2.954
+VIP,Mid-Range,5,3819.2,3.86,0.641,1.336
+VIP,Premium,2,5224.0,3.8,0.604,0.83

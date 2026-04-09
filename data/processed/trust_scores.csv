@@ -1,0 +1,70 @@
+product_id,brand,title,review_count,similarity_score,distribution_score,verified_score,length_quality_score,trust_score,trust_level
+B0C381B6B5,Safari,Safari Pentagon Hardside Small Cabin Luggage,8,61.2,70.0,80.0,80.0,72.3,High
+B4776CE822,Safari,Safari Thorium Sharp Anti-Scratch Trolley Bag,14,63.4,80.0,88.6,80.0,77.2,High
+B78CFEE677,Safari,Safari Regloss Antiscratch Suitcase,7,88.7,80.0,88.6,65.0,81.0,High
+B420E780CA,Safari,Safari Crypto 4W Spinner Trolley Bag,9,61.5,70.0,82.2,80.0,73.0,High
+B39898F91D,Safari,Safari Ray Polycarbonate Hardsided Cabin Luggage,10,90.0,70.0,92.0,80.0,84.0,High
+B4F9315E17,Safari,Safari Haze 8 Wheels Trolley Bag,7,90.2,80.0,100.0,80.0,88.1,High
+B0A318CA95,Safari,Safari Ozone Softside Spinner Suitcase,7,88.4,70.0,77.1,80.0,79.8,High
+B84A775390,Safari,Safari Flo Secure 4W Trolley Bag,13,61.1,80.0,93.8,80.0,77.8,High
+BD6A2E0D06,Safari,Safari Zen Polypropylene Hardsided Trolley,13,87.8,80.0,93.8,80.0,85.8,High
+B8A92F16C3,Safari,Safari Axis 4 Wheel Trolley Bag Set,11,89.4,80.0,100.0,80.0,87.8,High
+BCF28C6B65,Safari,Safari Pentagon 4W Spinner Medium,12,88.1,60.0,73.3,80.0,76.8,High
+BE0EA7367F,Safari,Safari Thorium Printed Hardside Cabin,6,89.1,60.0,100.0,80.0,83.7,High
+B91271AA5C,Skybags,Skybags Neo Strolly Cabin Luggage,7,90.7,70.0,77.1,80.0,80.5,High
+B590634F3D,Skybags,Skybags Trooper Polycarbonate Hardsided Suitcase,5,92.7,70.0,100.0,80.0,86.8,High
+BE9AACBA56,Skybags,Skybags Cube 4W Spinner Large,9,91.1,80.0,73.3,80.0,81.6,High
+B6E6D088C5,Skybags,Skybags Zoom Ultra Trolley Bag,7,87.2,60.0,88.6,80.0,80.3,High
+BA614F2B42,Skybags,Skybags Stream Polycarbonate Hardcase,14,83.9,70.0,94.3,80.0,82.7,High
+BCFDA48FA6,Skybags,Skybags Beach 4 Wheel Trolley Bag,7,60.5,60.0,88.6,80.0,72.3,High
+B656A00C3F,Skybags,Skybags Sonic Strolly Hardcase Luggage,14,90.6,80.0,94.3,80.0,86.8,High
+B04E7EBCC4,Skybags,Skybags Ramp Cabin Polycarbonate Spinner,11,60.3,70.0,92.7,80.0,75.3,High
+B9115C8EF5,Skybags,Skybags Trick 4W Strolly Medium,6,81.8,80.0,100.0,65.0,81.8,High
+BC37D84A76,Skybags,Skybags Majestic Softsided Trolley Set,15,60.7,60.0,84.0,65.0,67.4,Medium
+BD33B5463E,Skybags,Skybags Flashy Polycarbonate Cabin,13,59.3,60.0,87.7,80.0,71.7,High
+B123E4A758,American Tourister,American Tourister Ivy Polypropylene Hardside Cabin,14,60.7,70.0,71.4,80.0,70.1,High
+B630890FAD,American Tourister,American Tourister Liftoff Spinner Medium,9,59.4,70.0,82.2,80.0,72.4,High
+BE8E47B1D7,American Tourister,American Tourister Stratos Polycarbonate Hardshell,8,84.9,60.0,90.0,80.0,80.0,High
+B751A278E1,American Tourister,American Tourister Instagon Spinner Trolley Bag,6,83.0,60.0,100.0,80.0,81.9,High
+B548BF203F,American Tourister,American Tourister Kamiliant Zakk Spinner,12,88.7,70.0,93.3,80.0,84.0,High
+BD6581E74E,American Tourister,American Tourister Splash Voyage Hardside,8,85.8,70.0,80.0,80.0,79.8,High
+BFAEB1981C,American Tourister,American Tourister Cascade Spinner Large,7,81.8,80.0,88.6,80.0,82.7,High
+B6E62FFB78,American Tourister,American Tourister Speedair Cabin 4W,15,59.3,70.0,94.7,80.0,75.5,High
+BC16645A77,American Tourister,American Tourister Jamaica Polypropylene Medium,11,60.8,70.0,78.2,80.0,71.8,High
+B4693BD9F6,American Tourister,American Tourister Mighty Maze Spinner,8,87.9,70.0,90.0,80.0,82.9,High
+BAF58A1206,American Tourister,American Tourister Ga0 Armor Trolley Set,6,87.7,80.0,100.0,80.0,87.3,High
+B6C585D0E9,American Tourister,American Tourister Fornax Spinner Hard Body,10,88.9,70.0,100.0,80.0,85.7,High
+BEEAC52961,American Tourister,American Tourister Linex Polypropylene Cabin,10,59.5,80.0,76.0,80.0,72.9,High
+BFB409FDA5,VIP,VIP Outline 4W Cabin Trolley Bag,12,87.6,80.0,93.3,80.0,85.6,High
+BC7C7CF70F,VIP,VIP Zest Polycarbonate Hardside Medium,7,86.3,60.0,100.0,80.0,82.9,High
+BF71293BB8,VIP,VIP Xion Polycarbonate Hardshell Large,8,60.5,80.0,90.0,80.0,76.6,High
+B43D1B648A,VIP,VIP Polaris Spinner Trolley Bag,7,90.1,80.0,88.6,80.0,85.2,High
+B8A987173E,VIP,VIP Rush Polypropylene Hardsided Spinner,11,62.5,70.0,78.2,80.0,72.3,High
+B410407D7D,VIP,VIP Drift Softside Cabin Luggage,6,90.2,70.0,86.7,80.0,82.7,High
+B3FF5E6DD0,VIP,VIP Pioneer Spinner Medium,12,62.2,80.0,73.3,80.0,73.0,High
+BED2962697,VIP,VIP Zeal Polycarbonate Cabin 4W,6,91.1,80.0,100.0,80.0,88.3,High
+B058CA466A,VIP,VIP Experia Hardsided Large Trolley,7,85.2,80.0,88.6,80.0,83.7,High
+B1BF83D3D2,VIP,VIP Track Polypropylene Spinner Set,9,92.1,70.0,91.1,80.0,84.4,High
+B145916CFD,VIP,VIP Tide Cabin Trolley Bag,12,58.5,80.0,93.3,80.0,76.9,High
+BEEDDE4936,Aristocrat,Aristocrat Aston Polycarbonate Cabin Trolley,10,60.4,70.0,92.0,80.0,75.1,High
+B942B5AE28,Aristocrat,Aristocrat Harbour Medium Trolley Bag,14,88.3,80.0,82.9,80.0,83.2,High
+BB53BAB1B9,Aristocrat,Aristocrat Jude Polypropylene Large,13,92.2,80.0,81.5,65.0,80.3,High
+BA5DCD1573,Aristocrat,Aristocrat Vigour Hardside Cabin 4W,8,87.9,80.0,90.0,80.0,84.9,High
+BBEC5594B1,Aristocrat,Aristocrat Crystal Spinner Medium,8,64.1,80.0,90.0,80.0,77.7,High
+B91640B2DE,Aristocrat,Aristocrat Air Pro Cabin Trolley,12,61.4,80.0,93.3,65.0,74.0,High
+B783A0E9E3,Aristocrat,Aristocrat Flow Softside Spinner Medium,8,85.4,70.0,100.0,65.0,80.9,High
+B46A7BE6E5,Aristocrat,Aristocrat Photon Strolly Large,10,91.5,70.0,84.0,80.0,82.4,High
+B2FF044EE5,Aristocrat,Aristocrat Warrior Hardcase Cabin,5,93.2,70.0,100.0,80.0,86.9,High
+B983261431,Aristocrat,Aristocrat Cargo Max Trolley Set,7,91.3,80.0,88.6,80.0,85.5,High
+B4A671E0A4,Aristocrat,Aristocrat Spark Polycarbonate Cabin,9,64.2,70.0,100.0,80.0,78.3,High
+BD5CF69178,Nasher Miles,Nasher Miles Lombard Hard-Sided Cabin Luggage,11,61.4,70.0,85.5,80.0,73.8,High
+BDFFD1D48B,Nasher Miles,Nasher Miles Wall Street Hard-Sided Medium,13,61.4,70.0,100.0,80.0,77.4,High
+B65D869BAB,Nasher Miles,Nasher Miles Times Square Hardside Large,11,86.2,70.0,78.2,80.0,79.4,High
+B3F64DDF09,Nasher Miles,Nasher Miles Fifth Avenue Polycarbonate Cabin,9,57.2,70.0,91.1,80.0,73.9,High
+B33DCEF80F,Nasher Miles,Nasher Miles Park Avenue Spinner Medium,15,59.4,70.0,89.3,80.0,74.2,High
+B113DB3A12,Nasher Miles,Nasher Miles Broadway Hardcase Large,6,81.9,60.0,86.7,80.0,78.2,High
+B17C9B6D0C,Nasher Miles,Nasher Miles Oxford Cabin Trolley 4W,15,59.9,60.0,84.0,80.0,71.0,High
+B317B03B9C,Nasher Miles,Nasher Miles Bond Street Polycarbonate Medium,15,57.5,60.0,84.0,80.0,70.3,High
+BA201722F9,Nasher Miles,Nasher Miles Soho Hardside Cabin Spinner,15,55.2,70.0,94.7,80.0,74.2,High
+BA83D90250,Nasher Miles,Nasher Miles Central Park Trolley Set,10,83.9,80.0,92.0,80.0,84.2,High
+B588869907,Nasher Miles,Nasher Miles Hudson Polycarbonate Large,10,54.9,70.0,84.0,80.0,71.5,High
